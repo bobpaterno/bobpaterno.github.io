@@ -1,0 +1,41 @@
+@import url(http://fonts.googleapis.com/css?family=Special+Elite);
+@import url(http://fonts.googleapis.com/css?family=Balthazar);
+@import url(http://fonts.googleapis.com/css?family=IM+Fell+English+SC);
+
+body {
+  background-image: url('../images/bgimage.jpg');
+  background-size: cover;
+}
+
+h1 {
+  color: white;
+  background-color: #334455;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: 'Special Elite', cursive;
+}
+
+h3 {
+  border: 1px solid #99aabb;
+  padding: 8px;
+  background-color: #445566;
+  border-radius: 10px;
+  font-family: 'Balthazar', serif;
+  color: white;
+  letter-spacing: 1px;
+}
+
+h1, h3 {
+  opacity: 0.9;
+}
+li {
+  font-family: 'IM Fell English SC', serif;
+}
+
+li:nth-child(2n) {
+  color: white;
+}
+
+li:nth-child(2n+1) {
+  color: #bbbbbb;
+}
