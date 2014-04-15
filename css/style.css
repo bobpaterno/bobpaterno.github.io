@@ -3,6 +3,8 @@
 
 body {
   background-image: url('../images/bkgr_felt.png');
+//  background-image: url('../images/circuit-board.jpg');
+//  background-size: cover;
 }
 
 h1 {
@@ -42,6 +44,7 @@ li {
 }
 
 .container {
+  max-width: 500px
   margin: 5px;
   padding: 5px;
 }
@@ -59,4 +62,9 @@ li {
 .github-logo {
     width: 100%;
     height: auto;
+}
+
+.onelink {
+  max-width: 50%;
+  margin-bottom: 20px;
 }
